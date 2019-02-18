@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash" rel="stylesheet">
+    
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <title>Crystal Collector</title>
+</head>
+<body>
+    <div id="title"><p>Crystal Collector</p></div>
+
+    <div class="sidebar">
+        <p class="rules">Welcome to crystal collector! You must bring back from the mines the precise amount requested from the Crystal Wizard.</p>
+        <img src="assets/images/wizard.png" alt="wizard">
+       <!--<h3>your number: <span class="score" id="randomNumber"></span></h3>-->
+        <p class="rules">You are given a random number to match. Do so by clicking the crystals on the page, each crystal is given a random value each time you either win or lose the round. </p>
+    </div>
+        
+    <div class="gamePlay">
+        <img src="assets/images/blueCrystal.jpg" id="image1" alt="blue crystal" onclick=""/>
+        <img src="assets/images/purpleCrystal.png" id="image2" alt="purple crystal" onclick=""/>
+        <img src="assets/images/greenCrystal.png" id="image3" alt="green crystal" onclick=""/>
+        <img src="assets/images/orangeCrystal.png" id="image4" alt="orange crystal" onclick=""/>
+    </div>
+
+    <div id="scoring">  
+            <h3>wins: <span id="wins"></span></h3>
+            <h3>losses: <span id="losses"></span></h3>
+            <h3>Your crystals:<br><span id="currentTotal"></span></h3>
+            <h3>Crystals needed:<br> <span class="score" id="randomNumber"></span></h3>
+        </div>
+    
+
+
+    <footer></footer>
+    
+
+    <script src="assets/javascript/game.js"></script>
+
+</body>
+</html>
